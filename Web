@@ -1,0 +1,281 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN">
+<html>
+<head>
+    <title>Frames Example</title>
+</head>
+
+<frameset rows="50%,50%">
+    <frameset cols="50%,50%">
+        <frame src="frame1.html">
+        <frame src="frame2.html">
+    </frameset>
+    <frameset cols="50%,50%">
+        <frame src="frame3.html">
+        <frame src="frame4.html">
+    </frameset>
+</frameset>
+
+</html>
+<!DOCTYPE html>
+<html>
+<head><title>Frame1</title></head>
+<body style="background-color:red;"></body>
+</html><!DOCTYPE html>
+<html>
+<head><title>Frame2</title></head>
+<body style="background-color:blue;"></body>
+</html>
+<!DOCTYPE html>
+<html>
+<head><title>Frame3</title></head>
+<body style="background-color:green;"></body>
+
+</html><!DOCTYPE html>
+<html>
+<head><title>Frame4</title></head>
+<body style="background-color:yellow;"></body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ABC College</title>
+</head>
+<body>
+
+<h1 align="center">ABC College</h1>
+
+<h2>Departments</h2>
+<ul>
+    <li>Computer Science</li>
+    <li>Commerce</li>
+    <li>Mathematics</li>
+</ul>
+
+<h2>Courses Offered</h2>
+<ol>
+    <li>BSc Computer Science</li>
+    <li>BCom</li>
+    <li>BA English</li>
+</ol>
+
+<h2>Facilities</h2>
+<ul>
+    <li>Library</li>
+    <li>Laboratories</li>
+    <li>Sports</li>
+</ul>
+
+<h2>Faculty</h2>
+<ul>
+    <li>Prof. A</li>
+    <li>Prof. B</li>
+</ul>
+
+<h2>More Details</h2>
+<p>
+    Visit our website:
+    <a href="https://www.example.com">ABC College Official Site</a>
+</p>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume</title>
+</head>
+<body bgcolor="lightblue">
+
+<h1 align="center">RESUME</h1>
+
+<h2>Personal Details</h2>
+<p>Name: Your Name</p>
+<p>Email: your@email.com</p>
+<p>Phone: 1234567890</p>
+
+<h2>Career Objective</h2>
+<p>To secure a challenging position in a reputable organization.</p>
+
+<h2>Educational Qualification</h2>
+<table border="1">
+<tr>
+    <th>Course</th>
+    <th>Institution</th>
+    <th>Year</th>
+</tr>
+<tr>
+    <td>BSc Computer Science</td>
+    <td>ABC College</td>
+    <td>2026</td>
+</tr>
+</table>
+
+<h2>Skills</h2>
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+</ul>
+
+<h2>Hobbies</h2>
+<ul>
+    <li>Reading</li>
+    <li>Traveling</li>
+</ul>
+
+<h2>Declaration</h2>
+<p>I hereby declare that the above information is true.</p>
+
+</body>
+</html>
+4.
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Home Town</title>
+
+    <style>
+        body {
+            background-color: lightyellow;
+            color: darkblue;
+            font-family: Arial;
+        }
+
+        h1 {
+            text-align: center;
+            color: green;
+        }
+
+        img {
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>My Home Town</h1>
+
+<p>My hometown is a beautiful place known for its culture and natural beauty.</p>
+
+<img src="town.jpg" width="300" height="200" alt="Hometown Image">
+
+<p>It has many tourist attractions and a peaceful environment.</p>
+
+</body>
+</html>
+
+5.<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog Layout</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+        }
+
+        header {
+            background: black;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav {
+            background: gray;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .content {
+            width: 70%;
+            padding: 15px;
+        }
+
+        .sidebar {
+            width: 30%;
+            background: lightgray;
+            padding: 15px;
+        }
+
+        footer {
+            background: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>My Blog</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Articles</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+
+    <div class="content">
+        <h2>Blog Title</h2>
+        <p>This is a sample blog post content.</p>
+    </div>
+
+    <div class="sidebar">
+        <h3>About Me</h3>
+        <p>Short description about the author.</p>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 My Blog</p>
+</footer>
+
+</body>
+</html>
+
+6.<!DOCTYPE html>
+<html>
+<head>
+    <title>Rectangle Area</title>
+</head>
+<body>
+
+<h2>Area of Rectangle</h2>
+
+<script>
+    let length = parseFloat(prompt("Enter length:"));
+    let width = parseFloat(prompt("Enter width:"));
+
+    if (isNaN(length) || isNaN(width)) {
+        alert("Please enter valid numbers");
+    } else {
+        let area = length * width;
+        alert("Area of Rectangle = " + area);
+    }
+</script>
+
+</body>
+</html>
+
